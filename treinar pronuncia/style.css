@@ -1,0 +1,80 @@
+body{
+    background: #01A8F7 url('bg.jpg') no-repeat;
+}
+
+#exibir{
+    position: absolute;
+    background-color: rgb(196, 196, 196);
+    width: 500px;
+    height: 370px;
+    left: 35%;
+    top: 100px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+#botoes{
+    width: 473.5px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: absolute;
+    left: 35%;
+    top: 500px;
+}
+
+#imagem{
+    width: 30px;
+}
+
+#imagem:hover{
+    opacity: 0.7;
+}
+
+#gerar{
+    width: 100px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#escrita{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    right: 95PX;
+    width: 100px;
+    height: 50px;
+    display: inline;
+}
+
+#botaoLimpar{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    display: inline;
+}
+
+#exibirPalavra, #exibirEscrita{
+    text-align: center;
+}
+
+#exibirPalavra{
+    height: 50%;
+    margin-top: 10px;
+}
+
+#exibirEscrita{
+    height: 50%;
+}
+
+#mostrarPalavra, #mostrarEscrita{
+    display: block;
+    margin-top: 10px;
+    font-size: 2em;
+    color: rgb(210, 130, 10);
+}
